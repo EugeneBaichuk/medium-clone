@@ -1,0 +1,24 @@
+.linkWrapper{
+    display: flex;
+    flex-direction: row;
+
+    & .linkItem{
+        margin-left: 10px;
+    }
+
+    & .linkItem{
+        color:rgba(0,0,0,.3);
+        &:hover{
+            color:rgba(2, 2, 2, 0.7);
+        }
+        // &:focus{
+        //     color:rgba(2, 2, 2, 0.7);
+        // }
+
+    }
+    .linkItemChange{
+        margin-left: 10px;
+        color:rgba(2, 2, 2, 0.7);
+    }
+
+}
